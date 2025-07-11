@@ -73,6 +73,8 @@ rf-signal-analyzer/
 |   ├── Main.hs         # CLI entry point, CSV decoding and dispatch
 |   ├── Analyzer.hs     # Analysis logic and formatted output
 |   └── Types.hs        # Data type definitions and CSV parsing instance
+├── rf-analyzer.cabal # Build file
+├── sample_logs.csv   # Sample log files used for testing
 └── README.md
 ```
 
