@@ -10,7 +10,7 @@ data RFLog = RFLog
   , channel   :: Int
   , rssi      :: Int
   , packet_id :: Int
-  , status    :: ByteString
+  , status    :: String
   } deriving (Show, Generic)
 
 instance FromNamedRecord RFLog
